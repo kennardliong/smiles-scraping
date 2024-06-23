@@ -1,6 +1,15 @@
 # smiles-scraping
 
+First, pip install selenium, or pip3 install selenium.
+
+Next, check your version of chrome: https://www.whatismybrowser.com/detect/what-version-of-chrome-do-i-have
+
+if it's 126, you're good. if not, download the right version here, then replace the chromedriver file i put here. Alternatively, update your Chrome.
+https://googlechromelabs.github.io/chrome-for-testing/#stable
+you just need the chromedriver. open the zip file and take it out.
+
 This script takes in a CSV file that has a list of the ligands you want. Make sure they're spelled correctly. 
+
 Download the CSV file from sheets and put it in the same folder as this. 
 In line 9,
 filename = 'ligandsheet - Sheet1.csv' 
